@@ -1,0 +1,150 @@
+html, body {
+    height: 100%;
+    margin: 0; /* Removes any default margin */
+}
+body {
+    background-color: rgb(240,191,144);
+    background: linear-gradient(130deg, rgba(240,191,144,1) 0%, rgba(148,109,131,1) 35%, rgba(127,99,133,1) 59%, rgba(235,194,166,1) 73%, rgba(128,105,143,1) 100%); 
+    /* background-image: url('pexels-alscre-2847648.jpg'); */
+    background-size: cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+}
+nav{
+    padding: 20px;
+    padding-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 0px; 
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family:monospace;
+
+}
+nav a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+button{
+    padding: 8px 15px;
+    background-color: #492243;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+#formbox {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+#formbox label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+#formbx h1{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    align-self:center;   
+}
+
+#formbox input[type="text"],
+#formbox input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+
+#formbox input[type="text"]:focus,
+#formbox input[type="password"]:focus {
+    border-color: #492243;
+    outline: none;
+    
+}
+#formbox button{
+    width: 100%;
+}
+
+
+
+/* todo page styling */
+
+.container {
+    max-width: 70%; 
+    margin: 0 auto; 
+    padding: 70px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+
+.head1 {
+    font-size: 40px;
+    color: #492243;  
+    text-align: left; 
+    margin-bottom: 20px; 
+}
+
+.todo-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.todo-list li {
+    background-color: #8d5084;
+    color: white;
+    padding: 10px; 
+    margin: 10px 0; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+
+.todo-list li:hover {
+    background-color: #492243; 
+}
+
+.head{
+    padding: 40px;
+    font-size: 60px;
+    color: #492243;
+    text-align: center;
+}

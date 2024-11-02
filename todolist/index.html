@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body id="home">
+  <header>
+    <nav>
+      <div class="nav-right">
+        <img src="logo.png" alt="logo" width="100px">
+        <a href="#home"><b><i>TODO</i></b></a>
+    </div>
+        <div class="nav-left">
+            <a href="index.html">Home</a>
+            <a href="" onclick="alert('Login to continue')">My To-do</a>
+            <a href="index.html"><button>Logout</button></a>
+        </div>
+
+    </nav>
+</header>
+
+<div id="formbox">
+  <h3>Login</h3>
+  <form action="">
+    <label for="username">User Name</label>
+    <input type="text" id="username"><br>
+    <label for="password" >Password</label>
+    <input type="password" id="password">
+    <button >Submit</button>
+  </form>
+</div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>
